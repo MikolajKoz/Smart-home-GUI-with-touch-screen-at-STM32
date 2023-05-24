@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TouchGFX",
+    "\\TouchGFX\\gui",
+    "\\TouchGFX\\gui\\include",
+    "\\TouchGFX\\gui\\include\\gui",
+    "\\TouchGFX\\gui\\include\\gui\\lazienkagora_screen",
+    "\\TouchGFX\\gui\\include\\gui\\ogrod_screen",
+    "\\TouchGFX\\gui\\src",
+    "\\TouchGFX\\gui\\src\\lazienkagora_screen",
+    "\\TouchGFX\\gui\\src\\sypialnia_screen"
+  ],
+  "SelectedNode": "\\TouchGFX\\gui\\src\\ogrod_screen\\ogrodView.cpp",
+  "PreviewInSolutionExplorer": false
+}

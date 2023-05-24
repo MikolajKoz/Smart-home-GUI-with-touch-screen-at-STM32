@@ -1,0 +1,2335 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "RzutBoczny",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 800,
+            "Height": 480,
+            "Filename": "rzut boczny.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonPietro",
+            "X": 408,
+            "Y": 186,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_TODA",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonParter",
+            "X": 408,
+            "Y": 370,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_HDQY",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ChangeToParter",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonParter"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Parter"
+            }
+          },
+          {
+            "InteractionName": "ChangeToPietro",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonPietro"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pietro"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1"
+          }
+        ]
+      },
+      {
+        "Name": "Parter",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "parter_powiekszony.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonSalon",
+            "X": 231,
+            "Y": 75,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_RIQV",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonLazienka",
+            "X": 199,
+            "Y": 300,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_U2HZ",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonGaraz",
+            "X": 433,
+            "Y": 240,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_20DO",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonKuchnia",
+            "X": 75,
+            "Y": 225,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_0NGI",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonOgrod",
+            "X": 591,
+            "Y": 195,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_5VAY",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "RzutBoczny"
+            }
+          },
+          {
+            "InteractionName": "GoToSalon",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSalon"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "salon"
+            }
+          },
+          {
+            "InteractionName": "GoToKuchnia",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonKuchnia"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "kuchnia"
+            }
+          },
+          {
+            "InteractionName": "GoToLazienka",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonLazienka"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "lazienkaDol"
+            }
+          },
+          {
+            "InteractionName": "GoToGaraz",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonGaraz"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "garaz"
+            }
+          },
+          {
+            "InteractionName": "GoToOgrod",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonOgrod"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "ogrod"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "salon",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "lamp",
+            "X": 218,
+            "Y": -9,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "lampyZaswiecone100na100.png",
+            "Released": "lampy100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "floorHeating",
+            "X": 218,
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "podlogagrzanie100na100.png",
+            "Released": "podlogabiale100na100.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "temp",
+            "X": 665,
+            "Y": 141,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "temperatura100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 665,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 665,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 707,
+            "Y": 252,
+            "Height": 49,
+            "TextId": "__SingleUse_OUNR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "upR",
+            "X": 461,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downR",
+            "X": 461,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "rollerBinds",
+            "X": 461,
+            "Y": 167,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "rolety100n100.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Parter"
+            }
+          },
+          {
+            "InteractionName": "tempUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempUp"
+            }
+          },
+          {
+            "InteractionName": "tempDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempDown"
+            }
+          },
+          {
+            "InteractionName": "podgrzewanie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "floorHeating"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "podgrzewanieSalonButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "oswietlenie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oswietlenieSalonButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "kuchnia",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Y": 1,
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downH",
+            "X": 418,
+            "Y": 72,
+            "Width": 32,
+            "Height": 19,
+            "Pressed": "Down_arrow_pressed.png",
+            "Released": "Down_arrow.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "upH",
+            "X": 418,
+            "Width": 32,
+            "Height": 19,
+            "Pressed": "Up_arrow_pressed.png",
+            "Released": "Up_arrow.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "hood",
+            "X": 312,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "okap100na100.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "shelfLamp",
+            "X": 106,
+            "Y": 151,
+            "Width": 150,
+            "Height": 150,
+            "Pressed": "oswietlenieSzafkiwlaczone150na150.png",
+            "Released": "oswietlenieSzafki150na150.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "temp",
+            "X": 665,
+            "Y": 141,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "temperatura100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 665,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 665,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 707,
+            "Y": 252,
+            "Height": 49,
+            "TextId": "__SingleUse_P7PM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "lamp",
+            "X": 131,
+            "Y": -9,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "lampyZaswiecone100na100.png",
+            "Released": "lampy100na100.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "floorHeating",
+            "X": 131,
+            "Y": 381,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "podlogagrzanie100na100.png",
+            "Released": "podlogabiale100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "upR",
+            "X": 525,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downR",
+            "X": 525,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "rollerBinds",
+            "X": 525,
+            "Y": 164,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "rolety100n100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 312,
+            "Y": 164,
+            "Width": 100,
+            "Height": 87,
+            "Pressed": "cala.png",
+            "Released": "cala.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "tempUp",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempUp"
+            }
+          },
+          {
+            "InteractionName": "tempDown",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempDown"
+            }
+          },
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Parter"
+            }
+          },
+          {
+            "InteractionName": "podgrzewanie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "floorHeating"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "podgrzewanieKuchniaButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "goToKuchenka",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "kuchenka"
+            }
+          },
+          {
+            "InteractionName": "oswietlenie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oswietlenieKuchniaButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "szafka",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "shelfLamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "szafkaKuchniaButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "kuchenka",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "tlo",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 48,
+              "Green": 46,
+              "Blue": 46
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "mocPalnika",
+            "X": 539,
+            "Y": 166,
+            "Height": 49,
+            "TextId": "__SingleUse_97VY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "mocDown",
+            "X": 508,
+            "Y": 229,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "mocUp",
+            "X": 508,
+            "Y": 45,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "palnik1",
+            "X": 146,
+            "Y": 83,
+            "Width": 125,
+            "Height": 125,
+            "Pressed": "palnik1_p.png",
+            "Released": "palnik1.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "palnik4",
+            "X": 283,
+            "Y": 180,
+            "Width": 125,
+            "Height": 125,
+            "Pressed": "palnik4_p.png",
+            "Released": "palnik4.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "palnik3",
+            "X": 146,
+            "Y": 180,
+            "Width": 125,
+            "Height": 125,
+            "Pressed": "palnik3_p.png",
+            "Released": "palnik3.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "palnik2",
+            "X": 283,
+            "Y": 83,
+            "Width": 125,
+            "Height": 125,
+            "Pressed": "palnik2_p.png",
+            "Released": "palnik2.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "kuchenkaBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "kuchnia"
+            }
+          },
+          {
+            "InteractionName": "palnik1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "palnik1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "selectPalnik1"
+            }
+          },
+          {
+            "InteractionName": "palnik2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "palnik2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "selectPalnik2"
+            }
+          },
+          {
+            "InteractionName": "palnik3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "palnik3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "selectPalnik3"
+            }
+          },
+          {
+            "InteractionName": "palnik4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "palnik4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "selectPalnik4"
+            }
+          },
+          {
+            "InteractionName": "mocUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mocUp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "palnikMocUp"
+            }
+          },
+          {
+            "InteractionName": "mocDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mocDown"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "palnikMocDown"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ogrod",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "poolTemp",
+            "X": 150,
+            "Y": 130,
+            "Width": 200,
+            "Height": 200,
+            "RelativeFilename": "tempWody200na200.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "watering",
+            "X": 370,
+            "Y": 322,
+            "Width": 200,
+            "Height": 200,
+            "Pressed": "podlewaniewlaczone200na200.png",
+            "Released": "podlewanie200na200.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "gardenLamp",
+            "X": 590,
+            "Y": 130,
+            "Width": 200,
+            "Height": 200,
+            "Pressed": "lampawlaczona200na200.png",
+            "Released": "lampa200na200.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "DownP",
+            "X": 200,
+            "Y": 330,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "UpP",
+            "X": 200,
+            "Y": 30,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 225,
+            "Y": 288,
+            "Height": 49,
+            "TextId": "__SingleUse_E5V1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Parter"
+            }
+          },
+          {
+            "InteractionName": "tempPUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UpP"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempPUp"
+            }
+          },
+          {
+            "InteractionName": "tempPDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "DownP"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempPDown"
+            }
+          },
+          {
+            "InteractionName": "podlewanie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "watering"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "podlewanieOgrodButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "oswietlenie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "gardenLamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oswietlenieOgrodButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "garaz",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "charging",
+            "X": 192,
+            "Y": 140,
+            "Width": 200,
+            "Height": 200,
+            "Pressed": "ladowaniewlaczone200na200.png",
+            "Released": "ladowanie200na200.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "upG",
+            "X": 523,
+            "Y": 50,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downG",
+            "X": 523,
+            "Y": 303,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "garageDoor",
+            "X": 523,
+            "Y": 176,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "rolety100n100.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Parter"
+            }
+          },
+          {
+            "InteractionName": "ladowanie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "charging"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ladowanieButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "lazienkaDol",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "temp",
+            "X": 665,
+            "Y": 141,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "temperatura100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 665,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 665,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 707,
+            "Y": 252,
+            "Height": 49,
+            "TextId": "__SingleUse_6EK5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "floorHeating",
+            "X": 300,
+            "Y": 140,
+            "Width": 200,
+            "Height": 200,
+            "Pressed": "podlogagrzanie200na200.png",
+            "Released": "podloga200na200.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Parter"
+            }
+          },
+          {
+            "InteractionName": "tempUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempUp"
+            }
+          },
+          {
+            "InteractionName": "tempDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempDown"
+            }
+          },
+          {
+            "InteractionName": "podgrzewanie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "floorHeating"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "podgrzewanieLazDolButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Pietro",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "pietro_powiekszony.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonPokoj1",
+            "X": 62,
+            "Y": 68,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_0CB9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonPokoj2",
+            "X": 184,
+            "Y": 68,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_1X2W",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonPokoj3",
+            "X": 296,
+            "Y": 68,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_8NLZ",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonLazienkaGora",
+            "X": 62,
+            "Y": 240,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_2AO1",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonSypialnia",
+            "X": 232,
+            "Y": 280,
+            "Width": 97,
+            "Height": 60,
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "TextId": "__SingleUse_43DZ",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "RzutBoczny"
+            }
+          },
+          {
+            "InteractionName": "GoToLazienkaGora",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonLazienkaGora"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "lazienkaGora"
+            }
+          },
+          {
+            "InteractionName": "GoToSypialnia",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSypialnia"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "sypialnia"
+            }
+          },
+          {
+            "InteractionName": "GoToPokoj1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonPokoj1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "pokoj1"
+            }
+          },
+          {
+            "InteractionName": "GoToPokoj2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonPokoj2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "pokoj2"
+            }
+          },
+          {
+            "InteractionName": "GoToPokoj3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonPokoj3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "pokoj3"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "lazienkaGora",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "floorHeating",
+            "X": 72,
+            "Y": 140,
+            "Width": 200,
+            "Height": 200,
+            "Pressed": "podlogagrzanie200na200.png",
+            "Released": "podloga200na200.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "sauna",
+            "X": 313,
+            "Y": 140,
+            "Width": 200,
+            "Height": 200,
+            "Pressed": "saunawlaczona200na200.png",
+            "Released": "sauna200na200.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "bath",
+            "X": 556,
+            "Y": 114,
+            "Width": 200,
+            "Height": 200,
+            "Pressed": "wannawlaczona200na200.png",
+            "Released": "wanna200na200.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downW",
+            "X": 606,
+            "Y": 373,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "upW",
+            "X": 606,
+            "Y": 14,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 599,
+            "Y": 290,
+            "Width": 64,
+            "Height": 49,
+            "TextId": "__SingleUse_2EXR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pietro"
+            }
+          },
+          {
+            "InteractionName": "tempWUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "upW"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempWUp"
+            }
+          },
+          {
+            "InteractionName": "tempWDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "downW"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempWDown"
+            }
+          },
+          {
+            "InteractionName": "podlogowe",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "floorHeating"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "podgrzewanieLazGoraButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "sauna",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sauna"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "saunaButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "pokoj1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "lamp",
+            "X": 218,
+            "Y": -9,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "lampyZaswiecone100na100.png",
+            "Released": "lampy100na100.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "temp",
+            "X": 665,
+            "Y": 141,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "temperatura100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 665,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 665,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 707,
+            "Y": 252,
+            "Height": 49,
+            "TextId": "__SingleUse_Q982",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "upR",
+            "X": 461,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downR",
+            "X": 461,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "rollerBinds",
+            "X": 461,
+            "Y": 167,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "rolety100n100.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pietro"
+            }
+          },
+          {
+            "InteractionName": "tempUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempUp"
+            }
+          },
+          {
+            "InteractionName": "tempDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempDown"
+            }
+          },
+          {
+            "InteractionName": "oswietlenie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oswietleniePok1ButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "pokoj2",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "lamp",
+            "X": 218,
+            "Y": -9,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "lampyZaswiecone100na100.png",
+            "Released": "lampy100na100.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "temp",
+            "X": 665,
+            "Y": 141,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "temperatura100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 665,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 665,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 707,
+            "Y": 252,
+            "Height": 49,
+            "TextId": "__SingleUse_GZAC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "upR",
+            "X": 461,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downR",
+            "X": 461,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "rollerBinds",
+            "X": 461,
+            "Y": 167,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "rolety100n100.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pietro"
+            }
+          },
+          {
+            "InteractionName": "tempUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempUp"
+            }
+          },
+          {
+            "InteractionName": "tempDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempDown"
+            }
+          },
+          {
+            "InteractionName": "oswietlenie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oswietleniePok2ButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "pokoj3",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "lamp",
+            "X": 218,
+            "Y": -9,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "lampyZaswiecone100na100.png",
+            "Released": "lampy100na100.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "temp",
+            "X": 665,
+            "Y": 141,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "temperatura100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 665,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 665,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 707,
+            "Y": 252,
+            "Height": 49,
+            "TextId": "__SingleUse_3NC4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "upR",
+            "X": 461,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downR",
+            "X": 461,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "rollerBinds",
+            "X": 461,
+            "Y": 167,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "rolety100n100.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pietro"
+            }
+          },
+          {
+            "InteractionName": "tempUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempUp"
+            }
+          },
+          {
+            "InteractionName": "tempDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempDown"
+            }
+          },
+          {
+            "InteractionName": "oswietlenie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oswietleniePok3ButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "sypialnia",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 38,
+              "Green": 34,
+              "Blue": 34
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "goBack",
+            "Y": 380,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "lamp",
+            "X": 218,
+            "Y": -9,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "lampyZaswiecone100na100.png",
+            "Released": "lampy100na100.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "temp",
+            "X": 665,
+            "Y": 141,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "temperatura100na100.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "down",
+            "X": 665,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "up",
+            "X": 665,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textCounter",
+            "X": 707,
+            "Y": 252,
+            "Height": 49,
+            "TextId": "__SingleUse_JY7X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "upR",
+            "X": 461,
+            "Y": 41,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "up.png",
+            "Released": "up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "downR",
+            "X": 461,
+            "Y": 294,
+            "Width": 100,
+            "Height": 100,
+            "Pressed": "down.png",
+            "Released": "down.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "rollerBinds",
+            "X": 461,
+            "Y": 167,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "rolety100n100.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "goBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pietro"
+            }
+          },
+          {
+            "InteractionName": "tempUp",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "up"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempUp"
+            }
+          },
+          {
+            "InteractionName": "tempDown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "down"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tempDown"
+            }
+          },
+          {
+            "InteractionName": "oswietlenie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lamp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oswietlenieSypButtonClicked"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "plandomu",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "RzutBoczny",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp",
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j10",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile -j10 flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F469I-DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0",
+  "CreatedBy": "4.20.0"
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\gui",
+    "\\gui\\include",
+    "\\gui\\include\\gui",
+    "\\gui\\include\\gui\\pokoj1_screen",
+    "\\gui\\include\\gui\\pokoj2_screen",
+    "\\gui\\include\\gui\\pokoj3_screen",
+    "\\gui\\src",
+    "\\gui\\src\\pokoj3_screen",
+    "\\gui\\src\\sypialnia_screen"
+  ],
+  "SelectedNode": "\\gui\\src\\sypialnia_screen\\sypialniaView.cpp",
+  "PreviewInSolutionExplorer": false
+}

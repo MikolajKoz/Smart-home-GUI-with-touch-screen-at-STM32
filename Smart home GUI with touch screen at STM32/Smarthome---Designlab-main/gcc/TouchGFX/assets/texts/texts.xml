@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.20.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_97VY" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;moc&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_2EXR" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt; °C</Translation>
+      </Text>
+      <Text Id="__SingleUse_E5V1" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5VAY" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Ogrod</Translation>
+      </Text>
+      <Text Id="__SingleUse_JY7X" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3NC4" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_GZAC" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q982" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6EK5" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_OUNR" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_P7PM" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_43DZ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Sypialnia</Translation>
+      </Text>
+      <Text Id="__SingleUse_2AO1" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Łazienka</Translation>
+      </Text>
+      <Text Id="__SingleUse_8NLZ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Pokoj3</Translation>
+      </Text>
+      <Text Id="__SingleUse_1X2W" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Pokoj2</Translation>
+      </Text>
+      <Text Id="__SingleUse_0CB9" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Pokoj1</Translation>
+      </Text>
+      <Text Id="__SingleUse_0NGI" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Kuchnia</Translation>
+      </Text>
+      <Text Id="__SingleUse_20DO" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Garaż</Translation>
+      </Text>
+      <Text Id="__SingleUse_U2HZ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Łazienka</Translation>
+      </Text>
+      <Text Id="__SingleUse_RIQV" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Salon</Translation>
+      </Text>
+      <Text Id="__SingleUse_HDQY" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Parter</Translation>
+      </Text>
+      <Text Id="__SingleUse_TODA" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Piętro</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\gui",
+    "\\gui\\include",
+    "\\gui\\include\\gui",
+    "\\gui\\include\\gui\\pokoj3_screen",
+    "\\gui\\include\\gui\\sypialnia_screen",
+    "\\gui\\src",
+    "\\gui\\src\\pokoj2_screen",
+    "\\gui\\src\\pokoj3_screen",
+    "\\gui\\src\\sypialnia_screen"
+  ],
+  "SelectedNode": "\\gui\\src\\lazienkagora_screen\\lazienkaGoraView.cpp",
+  "PreviewInSolutionExplorer": false
+}
